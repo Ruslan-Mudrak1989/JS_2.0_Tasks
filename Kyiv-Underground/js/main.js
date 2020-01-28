@@ -1,6 +1,6 @@
 const radioBranch = document.querySelectorAll('.kyiv-metro');
 const selectStation = document.querySelector('.station-select');
-
+console.log();
 for (let k = 0; k < radioBranch.length; k++) {
     radioBranch[k].onchange = function () {
         selectStation.innerHTML = '';

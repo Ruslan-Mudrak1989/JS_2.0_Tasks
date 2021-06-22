@@ -1,0 +1,55 @@
+.title{
+    text-align: center;
+}
+
+section{
+    padding: 10px;
+    margin: 5px 0;
+}
+
+section:nth-child(odd){
+    background-color:olivedrab;
+}
+section:nth-child(even){
+    background-color: olive;
+}
+pre{
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+    background-color: lightgrey;
+}
+.m-move{
+    height: 50px;
+    width: 300px;
+    border: 2px solid red;
+}
+.m-enter{
+    height: 50px;
+    width: 300px;
+    border: 2px solid blue;
+}
+.m-leave{
+    height: 50px;
+    width: 300px;
+    border: 2px solid purple;
+}
+.bg{
+     height: 50px;
+     width: 300px;
+     border: 2px solid black;
+ }
+
+.bg-19{
+    height: 50px;
+    width: 300px;
+    border: 2px solid brown;
+}
+.go {
+    height: 25px;
+    width: 300px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    text-align: center;
+    color: darkblue;
+    font: 20px/25px Arial;
+}

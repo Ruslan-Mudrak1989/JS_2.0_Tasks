@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>unit-7</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1 class="title">Unit-7</h1>
+<section id="task-1">
+    <h2>Task-1.</h2>
+    <h3>Создайте функцию (именнованную), которая при клике на кнопке выводит в консоль ваше имя.</h3>
+    <button class="btn-1">Click</button>
+</section>
+
+<section id="task-2">
+    <h2>Task-2.</h2>
+    <h3>Создайте функцию (именованную). Функция должна примать один параметр - имя (например Ivan) и выводить имя
+        переданное ей в консоль. Запустите функцию и передайте в качестве имени Sergey.</h3>
+    <button class="btn-2">Click</button>
+</section>
+
+<section id="task-3">
+    <h2>Task-3.</h2>
+    <h3>Создайте именнованную функцию, которая принимает параметр число и выводит его значение умноженное на 10 в
+        консоль. Запустите выполнение функции. Убедитесь, что она работает. Теперь создайте кнопку и добавьте на нее
+        событие onclick которое вызывает данную функцию с параметром.
+
+        Если вы напишите, подобный синтаксис elem.onclick = myFunc(11), то увидите, что данная функция - выполняется
+        сразу при загрузке страницы! Действительно, ведь мы поставили скобки. Как передать параметр и не запустить
+        функцию сразу? Довольно хитро:</h3>
+    <pre>elem.onclick = function(){
+    myFunc(22);
+}</pre>
+    <button class="btn-3">Click</button>
+</section>
+
+<section id="task-4">
+    <h2>Task-4.</h2>
+    <h3>Создайте кнопку и функцию. При нажатии кнопки, функция окрашивает данную кнопку в background: red.</h3>
+    <button>Click</button>
+</section>
+
+<section id="task-5">
+    <h2>Task-5.</h2>
+    <h3>Создайте функцию, которая возвращает ваше имя. Имя вводится с input</h3>
+    <label for="name-2">Name:</label><input type="text" id="name-2">
+    <button>Click</button>
+    <p></p>
+</section>
+
+<section id="task-6">
+    <h2>Task-6.</h2>
+    <h3>Создайте функцию, которая принимает 2 числа и возвращает большее число из двух, либо любое из них если они
+        равны.</h3>
+    <button class="btn-6">Click</button>
+</section>
+
+<section id="task-7">
+    <h2>Task-7.</h2>
+    <h3>Создайте функцию, которая принимает год рождения и возвращает ваш возраст. Текущий год задавать как 2019.</h3>
+    <label for="year">Year of birth:</label><input type="number" id="year">
+    <p><b>Age:</b></p>
+    <pre></pre>
+</section>
+
+<section id="task-8">
+    <h2>Task-8.</h2>
+    <h3>Создайте функцию, которая возвращает случайное число от 1 до 10. По случайным числам читаем все здесь и задаем
+        вопросы в чате.</h3>
+    <button class="btn-8">Click</button>
+</section>
+
+<section id="task-9">
+    <h2>Task-9.</h2>
+    <h3>Создайте функцию, которая возвращает случайное число в указанном диапазоне. Диапазон указывает пользователь с
+        помощью
+        двух переменных, которые передаются функции в качестве параметров.</h3>
+    <button class="btn-9">Click</button>
+    <p><b>Answer:</b></p>
+    <pre></pre>
+</section>
+
+<section id="task-10">
+    <h2>Task-10.</h2>
+    <h3>Создайте функцию, которая возвращает случайный цвет. Напомню - цвет это строка rgb(0..255, 0..255, 0..255) -
+        которая содержит 3 числа от нуля до 255 включительно, разделенных запятыми. Т.е. вам нужно три раза создать
+        случайное число от 0 до 255.</h3>
+    <button class="btn-10">Click</button>
+    <p><b>Answer:</b></p>
+    <pre></pre>
+</section>
+
+<section id="task-11">
+    <h2>Task-11.</h2>
+    <h3>Создайте функцию f11, которая возвращает число 5. Создайте функцию которая принимает 2 параметра и перемножает
+        их между собой. В качестве первого параметра передайте f11().</h3>
+    <button class="btn-11">Click</button>
+    <p><b>Answer:</b></p>
+    <pre></pre>
+</section>
+
+<section id="task-12">
+    <h2>Task-12.</h2>
+    <h3>Создайте функцию toNum, которая принимает 1 параметр - объект input, и возвращает введенное в него значение
+        преобразованное в число.</h3>
+    <label for="enter">Enter some text:</label><input type="text" id="enter">
+    <button class="btn-12">Click</button>
+    <p><b>Answer:</b></p>
+    <pre></pre>
+</section>
+
+<section id="task-13">
+    <h2>Task-13.</h2>
+    <h3>Создайте функцию emptyInput - которая принимает в качестве параметра input, удаляет все пробелы введенные до и
+        после значения (trim), и проверяет - если результат равен пустой строке - то возвращает false, если нет - то сам
+        результат с обрезанными пробелами.</h3>
+    <label for="input-13"></label><input type="text" id="input-13">
+    <button class="btn-13">Click</button>
+    <p><b>Answer:</b></p>
+    <pre></pre>
+</section>
+
+<section id="task-14">
+    <h2>Task-14.</h2>
+    <h3>Создайте функцию, которая принимает параметр число и возвращает true если число четное и false если
+        нечетное.</h3>
+    <button class="btn-14">Click</button>
+    <p><b>Answer:</b></p>
+    <pre></pre>
+</section>
+
+<section id="task-15">
+    <h2>Task-15.</h2>
+    <h3>Создайте div, задайте ему ширину и высоту в CSS, границу. Добавьте на div событие onmousemove - и стрелочную
+        функцию срабатывающую при этом событии. Стрелочная функция должна выводить move в консоль.</h3>
+    <div class="m-move"></div>
+</section>
+
+<section id="task-16">
+    <h2>Task-16.</h2>
+    <h3>Создайте div, задайте ему ширину и высоту в CSS, границу. Добавьте на div событие onmouseenter - и стрелочную
+        функцию срабатывающую при этом событии. Стрелочная функция должна выводить enter в консоль.</h3>
+    <div class="m-enter"></div>
+</section>
+
+<section id="task-17">
+    <h2>Task-17.</h2>
+    <h3>Создайте div, задайте ему ширину и высоту в CSS, границу. Добавьте на div событие onmouseleave- и стрелочную
+        функцию срабатывающую при этом событии. Стрелочная функция должна выводить leave в консоль.</h3>
+    <div class="m-leave"></div>
+</section>
+
+<section id="task-18">
+    <h2>Task-18.</h2>
+    <h3>Создате div задайте ему ширину и высоту в CSS, границу. Добавьте на div событие onclick и анонимную ( не
+        стрелочную) функцию, внутрь которой запишите this.style.background = 'red'; В этом случае this указывает на
+        объект, на котором приозошло событие.</h3>
+    <div class="bg"></div>
+</section>
+
+<section id="task-19">
+    <h2>Task-19.</h2>
+    <h3>Создате div задайте ему ширину и высоту в CSS, границу. Добавьте на div событие onclick и стрелочную функцию,
+        внутрь которой запишите this.style.background = 'red'; Увы, в данном случае (особенность стрелочных функций) не
+        указывает на объект где произошло событие.</h3>
+    <div class="bg-19"></div>
+</section>
+
+<section id="task-20">
+    <h2>Task-20.</h2>
+    <h3>Создайте 5 div.go с текстом. C помощью цикла повесьте на них событие клик и анонимную (не стрелочную) функцию.
+        Внутри функции укажите this.style.background = 'red'; Кликайте по div, изучите результат.</h3>
+ <div class="go">One</div>
+ <div class="go">Two</div>
+ <div class="go">Three</div>
+ <div class="go">Four</div>
+ <div class="go">Five</div>
+</section>
+
+<script src="js/app.js"></script>
+</body>
+</html>

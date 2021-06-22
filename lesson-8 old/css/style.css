@@ -1,0 +1,30 @@
+html,
+body {
+    font-family: serif;
+}
+
+body {
+    margin: 20px auto;
+}
+
+.title{
+    text-align: center;
+}
+
+section{
+    padding: 10px;
+    margin: 5px 0;
+}
+
+section:nth-child(odd){
+    background-color:olivedrab;
+}
+section:nth-child(even){
+    background-color: olive;
+}
+
+pre{
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+    background-color: lightgrey;
+}

@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+section{
+    padding: 15px;
+    margin: 5px 0;
+}
+section:nth-child(even){
+    background-color: green;
+}
+section:nth-child(odd){
+    background-color: yellowgreen;
+}
+

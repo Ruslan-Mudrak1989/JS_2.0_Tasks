@@ -1,0 +1,15 @@
+.title{
+    text-align: center;
+}
+
+section{
+    padding: 10px;
+    margin: 5px 0;
+}
+
+section:nth-child(odd){
+    background-color: dodgerblue;
+}
+section:nth-child(even){
+    background-color: deepskyblue;
+}
